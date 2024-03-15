@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.trangchu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo img {
+    max-height: 40px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.search input[type="text"] {
+    padding: 8px;
+    border: none;
+    border-radius: 20px;
+}
+
+.search button {
+    padding: 8px 20px;
+    background-color: #ff5500;
+    color: #e2e7e6;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.noidung {
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+}
+
+.nhac {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.track {
+    width: calc(20% - 20px);
+    padding: 25px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+}
+
+.track img {
+    width: auto;
+    height: auto;
+    border-radius: 5px;
+}
+
+.thongtin {
+    margin-top: 10px;
+}
+
+.track h3 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.track p {
+    margin: 5px 0;
+    color: #888;
+}
+
